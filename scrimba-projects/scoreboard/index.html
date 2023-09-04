@@ -1,0 +1,44 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="score-container">
+                <div>
+                    <h3>HOME</h3>
+                    <div class="score">
+                        <div class="scoreNumber" id="homeNumber">0</div>
+                    </div>
+                    <div class="addScore" id="home">
+                        <div class="button-group">
+                            <button class="btn-add" id="add1" onclick="homeAdd1()">+1</button>
+                            <button class="btn-add" id="add2" onclick="homeAdd2();">+2</button>
+                            <button class="btn-add" id="add3" onclick="homeAdd3();">+3</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>GUEST</h3>
+                    <div class="score">
+                        <div class="scoreNumber" id="guestNumber">0</div>
+                    </div>
+                    <div class="addScore" id="guest">
+                        <div class="button-group">
+                            <button class="btn-add" id="add1" onclick="guestAdd1()">+1</button>
+                            <button class="btn-add" id="add2" onclick="guestAdd2();">+2</button>
+                            <button class="btn-add" id="add3" onclick="guestAdd3();">+3</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button-group-center" >
+                <button class="reset" onclick="reset();">Reset Score</button>
+            </div>
+        </div>
+        <footer>
+            <p>Crystal Branner</p>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>

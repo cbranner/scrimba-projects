@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Helvetica, Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+    display: flex;
+    /* justify-content: space-around; */
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    background: darkblue;
+    margin: 1rem auto 0;
+    padding: 2rem;
+    gap: 2rem;
+    flex-direction: column;
+    border-radius: 5px
+}
+
+.score-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-between
+}
+
+h3 {
+    color: #eee;
+    font-size: 1.5rem;
+}
+
+.score {
+    border: 1px solid #000;
+    width: 10rem;
+    padding: 0;
+    margin: 0 auto;
+    background: #000;
+    text-align: center;
+}
+
+.scoreNumber {
+    font-size: 90px;
+    font-weight: 900;
+    color: #F94F6D;
+    
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.7rem;
+    margin: 1rem;
+}
+
+.btn-add {
+    border: 1px solid #9AABD8;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: #9AABD8;
+    font-size: 1rem;
+    background: transparent;
+    font-weight: bold
+}
+
+.btn-add:active,
+.btn-add:hover {
+    background: #9AABDB;
+    color: #000;
+}
+
+button.reset {
+    color: #fff;
+    background: #F94F6D;
+    padding: 0.2rem 1.7rem;
+    border: 1px solid #F94F6D;
+    border-radius: 2px;
+}
+
+button.reset:active,
+button.reset:hover {
+    color: #F94F6D;
+    background: #fff;
+}
+
+footer {
+   width: 400px;
+   margin: 0 auto;
+   /* max-width: 350px; */
+ 
+   padding: 0.5rem 2rem;
+}
+
+footer p {
+    margin: 0 0 0 -2rem;;
+    color: #F94F6D;
+    font-style:italic;
+}
